@@ -1,6 +1,6 @@
 const puppeteer = require('puppeteer');
 
-const searchInput = 'nadaswaram tamil songs in tamil movies';
+const searchInput = 'nadaswaram tamil songs in tamil movie -youtube';
 const ExpResultCount = 50;
 let results = [];
 
@@ -26,6 +26,7 @@ let results = [];
 
         console.log(`Received ${results.length}/${ExpResultCount} results`);
 
+        await page.waitForSelector('a[id="pnnext"]', { visible: true });
         const NxtPage = await page.$('a#pnnext');
         await NxtPage.evaluate(NP => NP.click());
     }
