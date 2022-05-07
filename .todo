@@ -1,0 +1,5 @@
+[] Create a scrapper that google "Nadaswaram song tamil",
+ and pull for the same.
+ [*] Make the puppeteer visit "www.google.com".
+ [*] Google quires.
+ [*] Log the top 50 results.
