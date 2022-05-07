@@ -1,5 +1,12 @@
-[] Create a scrapper that google "Nadaswaram song tamil",
- and pull for the same.
- [*] Make the puppeteer visit "www.google.com".
- [*] Google quires.
- [*] Log the top 50 results.
+V1.0.0
+    [*] Create a scrapper that google "Nadaswaram song tamil",
+    and pull for the same.
+        [*] Make the puppeteer visit "www.google.com".
+        [*] Google quires.
+        [*] Log the top 50 results.
+
+V2.0.0
+    [] Store the list in a CSV file. 
+        [] Make the CSV file name as "Nadaswaram_tamil_song_possible_links".
+        [] Make the CSV file header as "Title & Link".
+        [] Append the data to the CSV file for every iterations.
